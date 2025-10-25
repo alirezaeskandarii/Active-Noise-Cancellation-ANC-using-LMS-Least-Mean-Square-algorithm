@@ -48,3 +48,4 @@ disp('Playing original signal...'); soundsc(d, Fs); pause(length(d)/Fs + 1);
 disp('Playing noisy signal...'); soundsc(x, Fs); pause(length(x)/Fs + 1);
 disp('Playing denoised signal (LMS filtered)...'); soundsc(d_hat, Fs);pause(length(d_hat)/Fs + 1);
 %disp('Playing denoised signal (Error)...'); soundsc(error, Fs);
+%%%%%%%
